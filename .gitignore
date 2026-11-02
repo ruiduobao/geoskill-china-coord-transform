@@ -33,3 +33,7 @@ Thumbs.db
 *.legacy
 .pre_exit_fix
 .publish-stash/
+
+# Upgrade v1: never commit caches or partial downloads
+*.pyc
+*.part
